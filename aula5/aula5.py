@@ -24,7 +24,7 @@ print('')
 # comportamentos diferentes dos operadores
 print(10 * '10')  # o operador de multiplicação também serve como operador de repetição
 print(10 * 'a')
-print('5' + '5')  # conatenação
+print('5' + '5')  # concatenação
 print('jessica' + ' ' + 'silva')  # concatenação
 print('jessica' + ' ' + 'silva' + ' ' + str(23) + ' ' + 'anos')  # concatenação e tranformação de inteiro em string
 

@@ -6,3 +6,10 @@ def saudacao(saudar='olá',nome='jessica'):
     print(saudar,nome)
 
 saudacao()
+
+# outra maneira
+
+def saudacao(saudacao, nome):
+    print(f'{saudacao} {nome}')
+
+saudacao('olá', 'jéssica')

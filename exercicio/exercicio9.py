@@ -10,3 +10,10 @@ def f(primeiro, segundo):
 
 var = f(50, 50)
 print(var)
+
+# outra forma
+def aumento_percentual(valor, percentual):
+    return valor + (valor * percentual / 100)
+
+ap = aumento_percentual(50, 50)
+print(ap)
